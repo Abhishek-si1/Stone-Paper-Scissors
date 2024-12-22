@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone, Paper & Scissors Gameplay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><img id=rps src="rock-paper-scissors.png">Stone, Paper & Scissors</h1>  <!-- Header -->
+
+<!-- Choices made -->
+
+    <div class="choices">
+        <div class="choice" id="stone">
+            <img src="rock.png">
+        </div>
+        <div class="choice" id="paper">
+            <img src="paper.png">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="scissor.png">
+        </div>
+    </div>
+
+    <!-- Score Board -->
+
+    <div class="scoreboard">
+        <div class="user">
+            <p id="userscore">0</p>
+            <p>User</p>
+        </div>
+        <div class="bot">
+            <p id="botscore">0</p>
+            <p>Bot</p>
+        </div>
+    </div>
+
+<!-- Result -->
+
+    <div class="messagecontainer">
+        <p id="msg">Play Your Move</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
